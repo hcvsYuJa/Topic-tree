@@ -5,7 +5,7 @@ int main()
 {
     int N, x=0, y=0;
     int Temporary_power, Temporary_Base;
-    double Max;
+    int Max;
     cin >> N;
         Max = sqrt(N);
         for (int i = 2; i <= Max; i++)
@@ -29,6 +29,7 @@ int main()
                 {
                     x = i;
                     y = Temporary_power;
+                    break;
                 }
             }
         }
