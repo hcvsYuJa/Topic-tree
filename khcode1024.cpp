@@ -18,12 +18,15 @@ int main()
                 Temporary_power = 0;
                 while (Temporary_Base > 1)
                 {
-
+                    if(Temporary_Base % i != 0 )
+                        break;
                     Temporary_Base = Temporary_Base / i;
                     Temporary_power++;
                     //cout << "Temporary_Base=" << Temporary_Base << endl;
 
                 }
+                if(Temporary_Base > 1)
+                    continue;
                 //  cout << "Temporary_power=" << Temporary_power << endl;
                 if (Temporary_power > y)
                 {
@@ -40,3 +43,5 @@ int main()
         }
         cout << x << " " << y << endl;
 }
+
+
