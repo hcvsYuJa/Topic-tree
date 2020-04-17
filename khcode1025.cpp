@@ -1,3 +1,9 @@
+/*
+飆程式網
+http://khcode.m-school.tw/index.php
+[語言] 幾次方呢 (ID: 1024)
+http://khcode.m-school.tw/show.php?1025
+*/
 #include <iostream>
 using namespace std;
 short A[100][100]={{7,4},{3,5}},B[100][100]={{2,1},{4,3}},N=2,i,j;
