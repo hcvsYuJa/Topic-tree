@@ -1,7 +1,7 @@
 /*
 飆程式網
 http://khcode.m-school.tw/index.php
-[語言] 幾次方呢 (ID: 1024)
+[語言] 矩陣乘法 (ID: 1025)
 http://khcode.m-school.tw/show.php?1025
 */
 #include <iostream>
