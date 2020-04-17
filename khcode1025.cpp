@@ -28,12 +28,12 @@ int main()
     	{
     		val=0;
     		for(i=0;i<N;i++)
-			{
-				val+=A[Key_A][i]*B[i][Key_B];
-			}
-			cout << val << " ";
+		{
+			val+=A[Key_A][i]*B[i][Key_B];
 		}
-		cout << endl;
+		cout << val << " ";
 	}
+	cout << endl;
+    }
     return 0;
 }
